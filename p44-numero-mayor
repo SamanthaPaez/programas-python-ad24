@@ -1,0 +1,27 @@
+# p44-numero-mayor - Calcular el numero mayor de una serie de numeros ingresados por el usuario. 0 para terminar
+
+import os
+
+while True:
+    os.system("cls")
+    print("Calcula el numero mayor de una serie de numeros ingresados por el usuario. Ingresa 0 para terminar")
+
+    mayor = 0 
+    numero = float(input("\nIngresa un numero: "))
+
+    if numero != 0:
+        mayor = numero
+
+    while numero != 0:
+        numero = float(input("Ingresa otro numero: "))
+        if numero > mayor and numero != 0:
+            mayor = numero
+
+    if mayor == 0:
+        print("No ingresaste ningun numero valido.")
+    else:
+        print(f"\nEl numero mayor de los ingresados es: {mayor}")
+
+    if input("\n¿Deseas continuar (S/N)? ").upper().startswith("N"): break
+
+print("\nProceso terminado")
