@@ -1,0 +1,9 @@
+# p59-numeros-10-en-10 - Impriimir los numeros de 1 a n de 10 en 10
+
+import os; os.system("cls")
+print("Se imprimen los numeros de 1 a n de 10 en 10 ")
+n = int(input("\nDame numero: "))
+
+for i in range(1, n+1, 10):
+    print(i, end=" ")
+
