@@ -1,0 +1,37 @@
+# p74-procesar-notas - Leer n notas hasta introducir un 0
+# Las notas pueden estar entre 0 y 100 (validar)
+# • Imprime:
+#   ◦ cuantas notas, las notas,
+#   ◦ suma, promedio,
+#   ◦ notas menores al promedio y cuantas son
+#   ◦ nota máxima y nota mínima
+
+import os
+os.system("cls")
+
+notas = []
+n = -1  
+suma = promedio = 0
+
+while n != 0:
+    n = float(input("Ingresa una nota (0 para terminar): "))
+    if 0 <= n <= 100:
+        if n != 0:
+            notas.append(n)
+    else:
+        print("Nota invalida, debe estar entre 0 y 100")
+
+if len(notas) > 0:
+    suma = sum(notas)
+    promedio = suma / len(notas)
+
+    menores_promedio = [nota for nota in notas if nota < promedio]
+
+    print(f"\nTotal de notas: {len(notas)}")
+    print(f"Notas: {notas}")
+    print(f"Suma de notas: {suma}")
+    print(f"Promedio: {promedio:.2f}")
+    print(f"Notas menores al promedio: {menores_promedio}, Total: {len(menores_promedio)}")
+    print(f"Nota máxima: {max(notas)}, Nota mínima: {min(notas)}")
+else:
+    print("No se introdujeron notas validas")
