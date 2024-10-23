@@ -157,3 +157,21 @@
 
 ## Examen Parcial 2
 - p100–segundo-examen-parcial
+
+## Actividad 15 funciones parte 1
+- p101-funcion
+- p102-funcion-parametro
+- p103-funcion-parametros
+- p104-funcion-mas-parametros
+- p105-funcion-parametros-nombre
+- p106-funcion-parametros-por-defecto
+- p107-funcion-retorno
+- p108-tabla-multiplicar
+- p109-cuadro-caracter
+- p110-numero-mayor
+- p111-estacion-año
+- p112-temperatura
+- p112-suma-digitos
+- p113-factorial
+- p114-calificacion-letra
+- p115-suma-rango
