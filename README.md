@@ -171,7 +171,20 @@
 - p110-numero-mayor
 - p111-estacion-año
 - p112-temperatura
-- p112-suma-digitos
-- p113-factorial
-- p114-calificacion-letra
-- p115-suma-rango
+- p113-suma-digitos
+- p114-factorial
+- p115-calificacion-letra
+- p116-suma-rango
+
+## Actividad 16 funciones parte 2
+- p117-suma-lista
+- p118-pares-lista
+- p119-mayor-menor
+- p120-mayores-promedio
+- p121-pares-impares
+- p122-aleatorios
+- p123-nombres
+- p124-funciones
+- p125-usa-funciones
+- p126-modulos-integrados
+
