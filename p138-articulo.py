@@ -11,7 +11,7 @@ class Articulo:
         return self.cantidad * self.precio
     
     def __str__(self):
-        return f"Articulo [ID = {self.id}, Descripcion = {self.descripcion}, Cantidad = {self.cantidad}, Precio = {self.precio:.2f}]"
+        return f"Articulo [ID = {self.id}, Descripcion = {self.descripcion}, Cantidad = {self.cantidad}, Precio = {self.precio:.2f}], Total = {self.obtenerTotal():.2f}"
 
 # Programa principal
 import os; os.system("Cls")
