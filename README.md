@@ -209,3 +209,5 @@
 ## Actividad 18
 - p139-ventas
 
+## Tercer Examen Parcial
+- p140-tercer-examen-parcial
